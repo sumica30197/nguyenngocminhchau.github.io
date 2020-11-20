@@ -1,0 +1,541 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bootstrap-override {
+}
+
+.bootstrap-override button:focus {
+  outline: none;
+}
+
+.bootstrap-override p {
+  margin-bottom: 0px;
+}
+
+.header {
+  background-image: url("../images/home.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.content-1 {
+  background-image: url("../images/dethiso1.png");
+  background-size: cover;
+}
+
+.nav-menu {
+  float: right;
+  position: relative;
+}
+
+a.nav-link {
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.56px;
+}
+
+.nav-item.active a.nav-link,
+a.nav-link:hover {
+  color: #02d871;
+}
+
+.toogle-icon {
+  color: white;
+}
+
+.logo {
+  float: left;
+  font-family: Karma;
+  font-weight: 500;
+  text-shadow: -0.7px 5px 32px rgba(0, 0, 0, 0.75);
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fafafa;
+  padding-top: 19px;
+}
+
+.logo > span {
+  color: #02d871;
+}
+
+.header-extra-pt {
+  padding-top: 57px;
+  position: relative;
+}
+
+.pt-17 {
+  padding-top: 17px !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+}
+
+.Sep {
+  width: 47px;
+  height: 3px;
+  box-shadow: -0.7px 5px 16px 0 rgba(0, 208, 108, 0.75);
+  background-color: #02d871;
+}
+
+.We-Design-Interface-That-Works-Great {
+  font-family: Poppins;
+  font-size: 50px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 47px;
+  padding-bottom: 38px;
+}
+
+.We-Design-Interface-That-Works-Great > p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.We-Believe-in-working-in-smarter {
+  font-family: Raleway;
+  font-size: 18px;
+  letter-spacing: 0.63px;
+  text-align: left;
+  color: #a3a3a3;
+  padding-bottom: 58px;
+}
+
+.Bg {
+  width: 200px;
+  height: 52px;
+  box-shadow: none;
+  background-color: #02d871;
+  border: none;
+  border-radius: 26px;
+}
+
+.Our-Works {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.Bg.subscribe {
+  background-color: #ffffff;
+  color: #02d871;
+}
+
+.header-content-container {
+  height: calc(100% - 113px);
+}
+
+.header-content-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.Over-seven-years-a-game-with-Love {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: -0.36px;
+  color: #333333;
+}
+
+.Website-App-Branding {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.18px;
+  color: #02d871;
+  padding-top: 41px;
+  padding-bottom: 52px;
+}
+
+.Just-two-good-ol-boys-Never-meanin-no-harm-Beats-all-youve {
+  font-family: Raleway;
+  font-size: 15px;
+  letter-spacing: 0.53px;
+  color: #222222;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+
+.content-1 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-menu .navbar {
+    position: absolute;
+    right: -55px;
+    top: 40px;
+  }
+
+  .nav-menu .navbar .navbar-collapse {
+    background: gray;
+    padding: 0 15px;
+  }
+}
+
+.about-container {
+  padding-top: 204px;
+}
+
+.about-icon {
+  width: 51px;
+  height: 51px;
+}
+
+.about-title {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  padding-top: 42px;
+  padding-bottom: 23px;
+  color: #222222;
+}
+.active .about-title {
+  color: #ffffff;
+}
+
+.aboutSep {
+  width: 42px;
+  height: 3px;
+  box-shadow: -0.7px 5px 16px 0 rgba(255, 255, 255, 0.75);
+  background-color: #02d871;
+}
+
+.active .aboutSep {
+  opacity: 0.71;
+  box-shadow: -0.7px 5px 16px 0 rgba(0, 208, 108, 0.75);
+  background-color: #ffffff;
+}
+
+.Bg-about {
+  width: 337px;
+  height: 315px;
+  padding-left: 58px;
+  padding-right: 59px;
+  margin: 0 auto;
+}
+
+.active.Bg-about {
+  border-radius: 5px;
+  box-shadow: -4.6px 32.7px 66.5px 3.5px rgba(0, 0, 0, 0.16);
+  background-color: #02d871;
+}
+
+.about-text {
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.38px;
+  text-align: center;
+  color: #777777;
+  padding-top: 34px;
+}
+
+.active .about-text {
+  color: #d8ffec;
+}
+
+.Shape-3 {
+  width: 120px;
+  height: 339px;
+  box-shadow: 0.3px 0px 0px 0 rgba(2, 216, 113, 0.23);
+  border: 2px solid #02d871;
+  border-left: none;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0px;
+}
+
+.content-2 {
+  padding-top: 120px;
+}
+
+.core-title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bdbdbd;
+  padding-bottom: 30px;
+}
+
+.core-title-container {
+  padding-bottom: 52px;
+}
+
+.coreSep {
+  width: 46px;
+  height: 3px;
+  box-shadow: -0.7px 5px 16px 0 rgba(0, 208, 108, 0.75);
+  background-color: #02d871;
+}
+
+.core-image {
+  width: 100%;
+  height: auto;
+}
+
+.pb-29 {
+  padding-bottom: 29px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.core-branding {
+  position: relative;
+}
+
+.core-branding-text {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.27px;
+  color: #ffffff;
+  padding-bottom: 19px;
+}
+
+.Home-Decoration {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-bottom: 31px;
+  text-align: center;
+}
+
+.brandingSep {
+  width: 40px;
+  height: 3px;
+  opacity: 0.57;
+  background-color: #fafafa;
+}
+
+.custom-branding-display {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+
+.btn-browse-more {
+  width: 210px;
+  height: 52px;
+  border: solid 2px #02d871;
+  background-color: #ffffff;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: normal;
+  color: #02d871;
+  border-radius: 26px;
+}
+
+.height-123px {
+  width: 100%;
+  height: 123px;
+}
+
+.height-530px {
+  height: 530px;
+}
+
+.Bradns-weve-worked-with {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: #bdbdbd;
+  padding-bottom: 30px;
+}
+
+.Bradns-weve-worked-with-padding {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.Bradns-weve-worked-img {
+  padding-top: 64px;
+}
+.brands-logo {
+  width: 80%;
+  height: auto;
+}
+.client-img {
+  width: 79.9px;
+  height: 79.9px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.client-img.active {
+  width: 102.9px;
+  height: 102.9px;
+}
+.clients-container {
+  position: absolute;
+  left: 70px;
+  top: 60px;
+}
+
+.Just-two-good-ol-boys-Never-meanin-no-harm-Beats-all-youve {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.45px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.author {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  float: right;
+}
+
+.clients-comment {
+  background-color: #38da77;
+  padding: 55px 65px 51px 48px;
+  margin-left: 20.5%;
+  margin-right: 11.7%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.blog-text {
+  font-family: Raleway;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  color: #777777;
+  padding-top: 55px;
+}
+
+.Complimentary-Design {
+  font-family: Poppins;
+  font-size: 18px;
+  letter-spacing: 0.27px;
+  color: #222222;
+  margin: 0 46px 25px 0;
+}
+
+.blog-sub-text {
+  margin: 25px 0 28px 1px;
+  font-family: Raleway;
+  font-size: 15px;
+  letter-spacing: 0.38px;
+  color: #777777;
+}
+
+.View-text {
+  margin: 28px 0px 0 1px;
+  font-family: Raleway;
+  font-size: 17px;
+  letter-spacing: 0.43px;
+  text-align: left;
+  color: #222222;
+}
+
+.footer-text-1 {
+  margin: 0 0 49px;
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.54px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.height-154px {
+  height: 154px;
+}
+
+.btn-round {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  border: solid 2px #02d871;
+  background-color: #fff;
+  color: #02d871;
+}
+
+.btn-round.fill {
+  background-color: #02d871;
+  color: #fff;
+}
+
+.footer-1 {
+  background-image: url("../images/footer-bg-1.png");
+  background-size: cover;
+}
+
+.footer-2 {
+  background-image: url("../images/footer-bg-2.png");
+  background-size: cover;
+}
+
+@media (max-width: 375px) {
+  .clients-comment {
+    position: relative;
+  }
+  .clients-container {
+    left: 10px;
+  }
+}
+
+.Agentur-By-NH {
+  font-family: Raleway;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  color: #777777;
+}
+
+.Privacy-Policy-Terms-and-conditions-FAQ {
+  font-family: Raleway;
+  font-size: 15px;
+  letter-spacing: 0.38px;
+  
+}
+
+.Privacy-Policy-Terms-and-conditions-FAQ a {
+  color: #777777;
+  text-decoration: none;
+}
+
+.social {
+  margin-bottom: 148px;
+}
+
+.mt-53 {
+  margin-top: 53px;
+}
